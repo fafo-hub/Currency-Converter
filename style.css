@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1c1424;
+    color: #d6d6d6;
+}
+.container {
+    display: grid;
+    grid-template-columns: 800px auto;
+    
+}
+.item-1 {
+    width: 35em;
+    margin: 150px 0 0 80px;
+}
+.item-1 h2, h3, a {
+    padding-bottom: 30px;
+}
+.item-2 {
+    height: 63vh;
+    width: 300px;
+    border-radius: 7px;
+    margin: 120px 0 0 80px;
+    background-color: #342b47;
+    color: #d6d6d6;
+}
+.item-2 h2{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#main-input {
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: #342b47;
+    color: #d6d6d6;
+    padding-left: 5px;
+}
+#Dollar, #Euro, #Yuan {
+    width: 80%;
+    margin: auto;
+    height: 60px; 
+    background-color: rgba(0, 0, 255, 0.4); 
+}
+#Euro {
+    background-color: rgba(0, 0, 255, 0.7);
+}
+#Yuan {
+    background-color: rgb(0, 0, 255);
+}
+.item-1 button {
+    border-radius: 5px;
+    height: 35px;
+    width: 10rem;
+    background-color: #1c1424;
+    color: #d6d6d6;
+}
+#submit {
+    border-radius: 5px;
+    height: 35px;
+    width: 10rem;
+    margin-top: 15px;
+    margin-left: 67px;
+    background-color: #342b47;
+    color: #d6d6d6;
+}
+label {
+    margin-left: 30px;
+}
